@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main- prints the phrase proper grammer, but the outcome is a piece of art,
