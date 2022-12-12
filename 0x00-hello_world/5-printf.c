@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - prints proper grammer,
+ * main - prints the phrase proper grammer,
  * but the outcome is a piece of art,
  * return- 0 if exited properly othere numbers otherwise
  */
