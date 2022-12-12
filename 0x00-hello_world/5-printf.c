@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 /**
  * main- Entry
- * main- prints string 
- * return: Always 0
+ * Return: Always 0
  */
 int main(void) 
 {
