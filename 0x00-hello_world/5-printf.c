@@ -2,6 +2,7 @@
 
 /**
  * main- Entry
+ * main- prints string 
  * return: Always 0
  */
 int main(void) 
