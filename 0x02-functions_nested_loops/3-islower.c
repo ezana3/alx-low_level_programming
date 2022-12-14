@@ -10,13 +10,13 @@ int _islower(int c)
 {
 	int x = ('a..z');
 
-	if
+	if()
 	{
 		int c = int x;
 
 		_putchar(1);
 	}
-	else
+	else()
 	{
 		return (0);
 	}
