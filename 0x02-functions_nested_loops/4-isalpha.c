@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isalpha -> Prints alphabetic character.
+ * _isalpha -> Prints alphabetic character.
  * @c:  is Character.
  * Return: Always zero;
  */
