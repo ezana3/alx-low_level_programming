@@ -8,7 +8,6 @@
 
 int _islower(int c)
 {
-	int c = 'A..Z'
 	int x = 'a..z'
 
 	if
