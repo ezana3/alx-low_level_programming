@@ -5,7 +5,7 @@
  * @x: character.
  * Return: Always 0;
  */
-int print_last_digit(int x);
+int print_last_digit(int x)
 {
 	for
 	{
