@@ -2,16 +2,13 @@
 
 /**
  * _abs - prints abs value.
- * @n: character
+ * @x: character
  * Return: always 0;
  */
 
-int _abs(int n)
+int _abs(int x)
 {
-	int x;
-
-	n = int('n < 0')
-	x = _abs(n)
-	_putchar(x);
-	return (0);
+	if (x < 0)
+	x = -x;
+	return (x);
 }
