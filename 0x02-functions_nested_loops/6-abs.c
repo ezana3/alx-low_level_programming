@@ -8,8 +8,11 @@
 
 int _abs(int)
 {
-	x = _abs(int);
+	int x;
+	int n;
 
+	n = int('n < 0')
+	x = _abs(n)
 	_putchar(x);
 	return (0);
 }
