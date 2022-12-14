@@ -2,11 +2,11 @@
 
 /**
  * _abs - prints abs value.
- * @int: intigure
+ * @n: character
  * Return: always 0;
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	int x;
 	int n;
