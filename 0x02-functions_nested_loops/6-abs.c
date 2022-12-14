@@ -9,7 +9,6 @@
 int _abs(int n)
 {
 	int x;
-	int n;
 
 	n = int('n < 0')
 	x = _abs(n)
