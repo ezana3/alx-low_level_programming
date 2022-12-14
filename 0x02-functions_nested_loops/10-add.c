@@ -1,20 +1,13 @@
 #include "main.h"
-#include "stdio.h"
 
 /**
- * add - adds.
- * main - function.
- * Return - Always 0;
+ * add -> Adds two number.
+ * @x: first number.
+ * @y: second number.
+ * Return - Value;
  */
 
-int main(void)
+int add(int x, int y)
 {
-	int add(int x, int y)
-	{
-		int n;
-
-		n = add(x, y);
-		printf("%d\n", n);
-		return (0);
-	}
+	return (x + y);
 }
