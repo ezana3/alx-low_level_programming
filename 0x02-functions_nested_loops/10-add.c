@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * add -> Adds two number.
+ * add - adds two number.
  * @x: first number.
  * @y: second number.
- * Return - Value;
+ * Return:  Value;
  */
 
 int add(int x, int y)
