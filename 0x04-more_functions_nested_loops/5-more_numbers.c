@@ -2,6 +2,7 @@
 
 /**
  * more_numbers - print more num
+ * Return: 10 times of the numbers.
  */
 
 void more_numbers(void)
@@ -12,7 +13,7 @@ void more_numbers(void)
 	{
 	for (y = 0; y <= 14; y++)
 	{
-	if (y >= 0)
+	if (y >= 9)
 	{
 	_putchar((y / 10) + '0');
 	}
