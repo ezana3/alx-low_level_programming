@@ -2,29 +2,25 @@
 
 /**
  * leet - a leet function
- * @x: param x
+ * @n: param n
  * Return: a string
  */
 
-char *leet(char *x)
+char *leet(char *n)
 {
-	int a = 0, b, l = 5;
-	char tr[5]  = {'A', 'E', 'O', 'T', 'L'}
-	char trw[5] = {'4', '3', '0', '7', '1'}
+	int i, j;
+	char s1[]  = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	while (x[a])
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		b = 0;
-
-		while (b < l)
+		for (j = 0; j < 10; j++)
 		{
-			if (x[a] == tr[b] || x[a] - 32 == tr[b])
+			if (n[i] == s1[j])
 			{
-				x[a] = trw[b];
+				n[i] = s2[j];
 			}
-			b++;
 		}
-		a++;
 	}
-	return (x);
+	return(n)
 }
